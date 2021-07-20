@@ -1,0 +1,39 @@
+.container{
+	padding: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+}
+.contact-img{
+	object-fit: cover;
+	object-position: center;
+	width: 500px;
+	height: 400px;
+}
+.contact-text{
+	position: relative;
+	flex-basis: 50%;
+	padding: 15px;
+	font-family: arial;
+	font-size: 25px;
+}
+.contact-text a{
+	font-family: sans-serif;
+	color: #7b7bca;
+	font-size: 30px;
+}
+.contact-text ul{
+	color: #adadad;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+}
+.contact-text li a{
+	display: inline-flex;
+}
+.contact-text li img{
+	width: 35px;
+	padding:0px 7px 0px 0px;
+}
