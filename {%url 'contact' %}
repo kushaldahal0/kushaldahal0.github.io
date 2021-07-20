@@ -1,56 +1,51 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<title>Home</title>
-		
-		<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+	<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Galada&family=Poppins:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="s/index.css">
+	<link rel="stylesheet" type='text/css' href="s/index.css">
+	<link rel="stylesheet" type='text/css' href="s/contact.css">
 	</head>
 	<body>
 		<header>
-		<h1>Home</h1>
-		<nav>
-			<ul>
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
+			<h1>CONTACT</h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
 		</header>
-		<div class="start">
-			<h1><b>Welcome To The Gallery Section</b></h1>
-		</div>
-		<div class="gallery">
-			<div class="contains">
-					<div class="item img1">
-						<img src="s/1.jpg" alt="image-1">
+		<div class="container">
+			<div class="details">
+				<label for="details">Address</label><br>
+				Bhaktapur, province 3 <br>
+				<label for="details">Contact</label><br>
+				+977-9843000000 <br>
+				<label for="details">Email</label><br>
+				Kushal.775424@bkmc.tu.edu.np
+			</div>
+			<br>
+			<div class="formarea">
+				<h1>CONTACT</h1>
+				<form>
+					<input type="text" name="name" placeholder="Full name here..."><br>
+					<input type="email" name="email" id="email" placeholder="Email"><br>
+					<input type="password" name="" id="" placeholder="Password"><br>
+					<input type="tel" name="" id="" placeholder="Phone number"><br>
+					<div class="buttons">
+							<button type="reset" class="reset">Reset</button>
+							<button type="submit" class="submit">Submit</button>
 					</div>
-					<div class="item img2">
-						<img src="s/2.jpg" alt="image-2">
-					</div>
-					<div class="item img3">
-						<img src="s/3.jpg" alt="image-3">
-					</div>
-					<div class="item img4">
-						<img src="s/4.jpg" alt="image-4">
-					</div>
-					<div class="item img5">
-						<img src="s/5.jpg" alt="image-5">
-					</div>
-					<div class="item img6">
-						<img src="s/6.jpg" alt="image-6">
-					</div>
-					<div class="item img7">
-						<img src="s/7.jpg" alt="image-7">
-					</div>
-					<div class="item img8">
-						<img src="s/8.jpg" alt="image-8">
-					</div>
+				</form>
 			</div>
 		</div>
 		<footer>
