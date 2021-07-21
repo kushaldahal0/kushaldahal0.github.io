@@ -238,7 +238,10 @@ nav{
 		height: 35px;
 	}
 }
-@media screen and (max-width: 368px){
+@media screen and (max-width: 375px){
+	.gallery{
+		display: block;
+	}
 	nav{
 		display: flex;
 		flex-wrap: wrap;
