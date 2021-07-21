@@ -242,23 +242,25 @@ nav{
 	.gallery{
 		display: block;
 	}
+	
 	nav{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 100%;
 	}
-}
-nav a{
-	justify-content: center;
-	width: 89px;
-	font-size: 25px;
-	text-align: center;
-	display: flex;
-}
-footer{
-	padding: 10px;
-}
-footer .j{
-	text-align: justify;
+
+	nav a{
+		justify-content: center;
+		width: 89px;
+		font-size: 25px;
+		text-align: center;
+		display: flex;
+	}
+	footer{
+		padding: 10px;
+	}
+	footer .j{
+		text-align: justify;
+	}
 }
