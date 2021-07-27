@@ -239,6 +239,9 @@ nav{
 	}
 }
 @media screen and (max-width: 375px){
+	body{
+		overflow: hidden;
+	}
 	.gallery{
 		display: block;
 	}
