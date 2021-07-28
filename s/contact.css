@@ -40,9 +40,6 @@
     font-size: 40px;
   }
   @media screen and (max-width: 1024px) {
-    body{
-      overflow-x: hidden;
-    }
     .container {
     height: auto;
     }
@@ -99,9 +96,6 @@
   }
   @media screen and (max-width: 368px)
   {
-    body{
-      overflow-x: hidden;
-    }
     header{
       width: 100%;
     }
