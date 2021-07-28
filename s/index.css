@@ -20,8 +20,8 @@ header{
 	font-family: lato;
 }
 nav{
-	margin-top: 0px;
-	padding: 5px;
+	margin-top: 5px;
+	padding: 0px;
 	background-color: black;
 	
 	
@@ -210,6 +210,9 @@ nav{
 }
 @media screen and (max-width: 768px)
 {
+	body{
+		overflow: hidden;
+	}
 	header{
 		position: sticky;
  	  top: 0;
@@ -238,32 +241,34 @@ nav{
 		height: 35px;
 	}
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
 	body{
 		overflow: hidden;
 	}
-	.gallery{
-		display: block;
+	.gallery .contains{
+		display: flex;
+		flex-wrap: wrap;
 	}
-	
 	nav{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 100%;
 	}
-
 	nav a{
-		justify-content: center;
-		width: 89px;
-		font-size: 20px;
-		text-align: center;
-		display: flex;
+		font-size: 20px; 
 	}
-	footer{
-		padding: 10px;
-	}
-	footer .j{
-		text-align: justify;
-	}
+}
+  nav a{
+	justify-content: center;
+	width: 75%;
+	font-size: 25px;
+	text-align: center;
+	display: flex;
+}
+footer{
+	padding: 10px;
+}
+footer .j{
+	text-align: justify;
 }
