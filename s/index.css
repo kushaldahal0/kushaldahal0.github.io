@@ -20,8 +20,8 @@ header{
 	font-family: lato;
 }
 nav{
-	margin-top: 0px;
-	padding: 5px;
+	margin-top: 5px;
+	padding: 0px;
 	background-color: black;
 	
 	
@@ -180,11 +180,14 @@ textarea{
 }
 @media screen and (max-width: 1024px)
 {
+	body{
+		overflow-x: hidden;
+	}
 	header{
 		width: 100%;
 		position: sticky;
- 	  top: 0;
-	 z-index: 2;
+ 	  	top: 0;
+	 	z-index: 2;
 	}
 	.box{
 		flex-basis: 90%;
@@ -210,10 +213,13 @@ nav{
 }
 @media screen and (max-width: 768px)
 {
+	body{
+		overflow-x: hidden;
+	}
 	header{
 		position: sticky;
- 	  top: 0;
-  	z-index: 2;
+ 	  	top: 0;
+  		z-index: 2;
 	}
 	.gallery .contains{
 		display: block;
@@ -238,9 +244,13 @@ nav{
 		height: 35px;
 	}
 }
-@media screen and (max-width: 375px){
-	.gallery{
-		display: block;
+@media screen and (max-width: 425px){
+	body{
+		overflow-x: hidden;
+	}
+	.gallery .contains{
+		display: flex;
+		flex-wrap: wrap;
 	}
 	nav{
 		display: flex;
@@ -248,10 +258,13 @@ nav{
 		justify-content: center;
 		width: 100%;
 	}
+	nav a{
+		font-size: 20px; 
+	}
 }
-nav a{
+  nav a{
 	justify-content: center;
-	width: 89px;
+	width: 75%;
 	font-size: 25px;
 	text-align: center;
 	display: flex;
