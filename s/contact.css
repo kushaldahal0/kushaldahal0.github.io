@@ -97,8 +97,7 @@
     transform: translate(-1%,-0%);
   }
 }
-@media screen and (max-width: 368px)
-{
+@media screen and (max-width: 425px) {
   body{
     overflow-x: hidden;
   }
