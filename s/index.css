@@ -208,7 +208,7 @@ nav{
 		width: 150px;
 	}
 }
-@media screen and (min-width: 768px)
+@media screen and (max-width: 768px)
 {
 	header{
 		position: sticky;
@@ -239,7 +239,7 @@ nav{
 		height: 35px;
 	}
 }
-@media screen and (min-width: 425px){
+@media screen and (max-width: 425px){
 	body{
 		overflow-x: hidden;
 	}
