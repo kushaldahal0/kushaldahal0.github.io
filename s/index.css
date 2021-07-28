@@ -208,18 +208,16 @@ nav{
 		width: 150px;
 	}
 }
-@media screen and (max-width: 768px)
+@media screen and (min-width: 768px)
 {
-	body{
-		overflow: hidden;
-	}
 	header{
 		position: sticky;
  	  top: 0;
   	z-index: 2;
 	}
 	.gallery .contains{
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
 		margin: 10px 0px;
 	}
 	.gallery img{
@@ -241,9 +239,9 @@ nav{
 		height: 35px;
 	}
 }
-@media screen and (max-width: 425px){
+@media screen and (min-width: 425px){
 	body{
-		overflow: hidden;
+		overflow-x: hidden;
 	}
 	.gallery .contains{
 		display: flex;
