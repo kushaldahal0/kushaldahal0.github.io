@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 .details{
   margin-top: 50px;
@@ -25,7 +26,7 @@
   background-color: #f2eeee;
   border: 1px solid rgba(0,0,0,.1);
   position: absolute;
-  transform: translate(50%,-0%);
+  transform: translate(47%,3%);
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -39,24 +40,7 @@
   color: #8e8ec7;
   font-size: 40px;
 }
-@media screen and (max-width: 1024px) {
-  body{
-    overflow-x: hidden;
-  }
-  .container {
-  height: auto;
-  }
-  .container .formarea{
-    position: absolute;
-    transform: translate(15%,0%);
-   }
-  .container .details{
-    position: relative;
-    width: 100%;
-    padding: 50px 0px;
-    margin-top: 350px;
-  }
- }
+
 .formarea form{
   padding: 20px;
 }
@@ -90,14 +74,41 @@
   border-radius: 25px;
   cursor: pointer;
   color: #f2eeee;
+  padding: 10px;
 }
-@media screen and (max-width: 770px) {
+
+
+@media screen and (max-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+  .container {
+  height: auto;
+  }
+  .container .formarea{
+    position: absolute;
+    transform: translate(15%,0%);
+   }
+  .container .details{
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 350px;
+  }
+ }
+
+ @media screen and (max-width: 780px) {
   .container .formarea{
     width: auto;
     transform: translate(-1%,-0%);
+    overflow-x: hidden;
   }
+   body{
+     overflow-x: hidden;
+   }
 }
-@media screen and (max-width: 435px)
+
+ @media screen and (max-width: 435px)
 {
   body{
     overflow-x: hidden;
