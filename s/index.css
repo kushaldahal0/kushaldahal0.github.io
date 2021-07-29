@@ -10,24 +10,25 @@ header{
 	text-align: center;
 	align-content: center;
 	color: white;
-	margin-top: 0px;
+	margin-top: -22px;
 	width: 100%;
 	background-color: black;
 	position: sticky;
  	top: 0;
 	z-index: 2;
-	padding-bottom: 10px;
+	
 	font-family: lato;
+	padding-bottom: 10px;
 }
 nav{
-	margin-top: 5px;
-	padding: 0px;
+	margin: 5px 0px;
+	padding: 0px 5px;
 	background-color: black;
 	
 	
 }
 ul{
-	padding: 0px 0px 0px 14px;
+	padding: 5px 15px 5px 15px;
 	margin: 0px;
 	list-style: none;
 	display: inline-flex;
@@ -39,6 +40,8 @@ ul{
 
 li {
 	border-radius: 25px;
+	padding: 1px;
+	margin: 0px 50px;
 }
 li a{
 	text-decoration: none;
@@ -62,8 +65,8 @@ li a{
 }
 .gallery{
 	display: flex;
-	width: 90%;
-	margin: 20px auto;
+	width: 85%;
+	margin: 30px auto;
 	justify-content: space-around;
 	position: relative;
 }
@@ -121,9 +124,10 @@ img{
 	grid-column: 6/9;
 }
 .item :hover{
-	transform: scale(1.04);
+	transform: scale(1.05);
 	cursor: pointer;
 	opacity: 1;
+	transition: 0.35s;
 }
 
 footer{
@@ -149,19 +153,19 @@ footer h1{
 	font-family:arial , sans-serif;
 }
 .box{
-	flex-basis: 30%;
+	flex-basis: 28%;
 	position: relative;
 	padding: 10px 20px;
 }
 input{
-	padding: 5px 15px 0px 15px;
+	padding: 5px 60px 5px 60px;
 	width: 50%;
 	background-color: #c3c3c3;
 	border-radius: 7px;
 }
 
 textarea{
-	padding: 5px 15px 0px 15px;
+	padding: 5px 60px 5px 60px;
 	width: 50%;
 	height: 150px;
 	background-color: #c3c3c3;
@@ -231,6 +235,7 @@ nav{
 	nav li{
 		display: flex;
 		flex-wrap: wrap;
+		margin:0 20px;
 	}
 	nav a{
 		text-align: center;
@@ -253,8 +258,11 @@ nav{
 		justify-content: center;
 		width: 100%;
 	}
+	nav li{
+		margin: 3px 15px;
+	}
 	nav a{
-		font-size: 20px; 
+		font-size: 15px; 
 	}
 }
   nav a{
@@ -269,4 +277,12 @@ footer{
 }
 footer .j{
 	text-align: justify;
+	padding: 5px 15px 5px 83px;
+}
+footer .k{
+	padding: 5px 0px 5px 70px;
+	margin: 0px -100px 0px 6px;
+}
+footer .l{
+	margin: 0px 0px 0px 70px;
 }

@@ -10,10 +10,11 @@
 	object-position: center;
 	width: 500px;
 	height: 400px;
+	padding: 20px 5px 20px 0;
+	/*! opacity: 1 !important; */
 }
 .contact-text{
 	position: relative;
-	flex-basis: 50%;
 	padding: 15px;
 	font-family: arial;
 	font-size: 25px;
@@ -36,4 +37,17 @@
 .contact-text li img{
 	width: 35px;
 	padding:0px 7px 0px 0px;
+}
+.wholecontainer{
+	padding: 0px;
+}
+.contact-img img{
+	opacity: 1 !important;
+	border-radius: 200px;
+	transition: 0.4s;
+}
+.contact-img img:hover{
+  border-radius: 50px;
+	transition: 0.5s;
+	transform: scale(1.15);
 }
