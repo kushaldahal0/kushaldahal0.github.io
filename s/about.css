@@ -24,6 +24,11 @@
 	font-family: sans-serif;
 	color: #7b7bca;
 	font-size: 30px;
+	transition: 0.3s;
+}
+.contact-text a:hover{
+	color: darkblue;
+	transition: 0.4s;
 }
 .contact-text ul{
 	color: #adadad;

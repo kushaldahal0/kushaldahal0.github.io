@@ -19,6 +19,7 @@ header{
 	
 	font-family: lato;
 	padding-bottom: 5px;
+	cursor: default;
 }
 nav{
 	margin: 5px 0px;
@@ -42,6 +43,7 @@ li {
 	border-radius: 25px;
 	padding: 5px 10px;
 	margin: 0px 50px;
+	transition: 0.3s;
 }
 li a{
 	text-decoration: none;
@@ -50,7 +52,7 @@ li a{
 }
 .start{
 	background-image:  url("0.jpg");
-	color: white;
+	color: black;
 	font-style: italic;
 	display: flex;
 	width: 100%;
@@ -62,6 +64,14 @@ li a{
 	align-content: center;
 	text-align: center;
 	display: inline-grid;
+	transition: 0.3s;
+	opacity: 0.97;
+	cursor: default;
+}
+.start:hover{
+	opacity: 1;
+	transition: 0.4s;
+	color: white;
 }
 .gallery{
 	display: flex;
@@ -149,9 +159,11 @@ footer{
 .k a{
 	color: #7b7bca;
 	font-size: 25px;
+	transition: 0.3s;
 }
 footer h1{
 	font-family:arial , sans-serif;
+	cursor: default;
 }
 .box{
 	flex-basis: 28%;
@@ -179,6 +191,7 @@ textarea{
 	background-color: #7b7bc9;
 	cursor: pointer;
 	color: #f2eeee;
+	transition: 0.3s;
 }
 .j p{
 	margin-top: -6px;
@@ -191,12 +204,17 @@ textarea{
 	text-align: center;
 	display: flex;
 }
+nav li:hover{
+	transition: 0.4s;
+	opacity: 0.6;
+}
 footer{
 	padding: 10px;
 }
 footer .j{
 	text-align: justify;
 	padding: 5px 15px 5px 83px;
+	cursor: default;
 }
 footer .k{
 	padding: 5px 0px 5px 70px;
@@ -204,6 +222,14 @@ footer .k{
 }
 footer .l{
 	margin: 0px 0px 0px 70px;
+}
+footer button:hover{
+	background: darkblue;
+	transition: 0.4s;
+}
+footer a:hover{
+	color: darkblue;
+	transition: 0.4s;
 }
 @media screen and (max-width: 1024px)
 {
