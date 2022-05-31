@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kushaldahal0.github.io
+Token: a8ea0d7e22e386f46971280d2cf12f984d15ae30d52954b6dcfdf83357b9adee
